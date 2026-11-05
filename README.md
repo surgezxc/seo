@@ -6,7 +6,7 @@
 - Сайт: https://gk-anvgarant.ru/
 - Яндекс Карты: https://yandex.ru/maps/org/anv_garant/100944320232/
 - Метрика: 113897560 · Вебмастер мета-тег: `25a9a7f3c60335b7`
-- Репозиторий: https://github.com/vladislavkhodarev/seo
+- Репозиторий: https://github.com/surgezxc/seo
 
 ## Правило работы
 
