@@ -34,6 +34,7 @@
 
 | Файл | Что это |
 |---|---|
+| [docs/plan-next-4-weeks.md](docs/plan-next-4-weeks.md) | **План на 4 недели: что делать сейчас** |
 | [docs/yandex-promotion-plan.md](docs/yandex-promotion-plan.md) | Главный план: цель, 5 работ, чего план не контролирует, вопросы владельцу, блок GEO (Алиса и Нейро) |
 | [docs/baseline-2026-10-10.md](docs/baseline-2026-10-10.md) | Снимок «до»: сайт, карточка Карт, расхождения в реквизитах |
 | [docs/site-recheck.md](docs/site-recheck.md) | Сверка 29.10: что изменилось после правок заказчика |
