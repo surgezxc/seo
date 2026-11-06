@@ -39,7 +39,8 @@
 | Файл | Что это |
 |---|---|
 | [docs/client-answers_2026-11-05.md](docs/client-answers_2026-11-05.md) | **Ответы заказчика 5 ноября: офис, услуги, доступы, ограничения** |
-| [docs/positions-baseline_2026-11-05.md](docs/positions-baseline_2026-11-05.md) | **База позиций: 10 из 78, разбор по кластерам** |
+| [docs/positions-baseline_2026-11-05.md](docs/positions-baseline_2026-11-05.md) | **База позиций: 10 из 78, разбор и расхождения** |
+| [queries/tracking-positions.xlsx](queries/tracking-positions.xlsx) | Таблица недельных замеров: 10 фраз × 8 недель |
 | [docs/plan-next-4-weeks.md](docs/plan-next-4-weeks.md) | План на 4 недели: что делать сейчас |
 | [docs/message-passwords_2026-11-05.md](docs/message-passwords_2026-11-05.md) | **Сообщение Валентине: доступ к карточке** |
 | [docs/message-to-client_2026-11-05.md](docs/message-to-client_2026-11-05.md) | Прежний список вопросов, на который пришли ответы |
