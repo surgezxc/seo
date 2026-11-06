@@ -16,7 +16,7 @@
 задач. Подробнее —
 [docs/preferences.md](docs/preferences.md).
 
-## Статус на 5 ноября 2026 (вечер)
+## Статус на 6 ноября 2026
 
 Спринт по ТЗ закрыт: разработчик выполнил 10 из 10 пунктов, проверено
 [docs/brief-check.md](docs/brief-check.md) 1 ноября.
@@ -25,6 +25,7 @@
 |---|---|
 | 5 страниц услуг + главная в sitemap, canonical, `www`→301 | готово |
 | Метрика 113897560 и мета-тег Вебмастера в HTML | готово |
+| Цели Метрики: звонок, Telegram, WhatsApp, MAX | инструкция готова, **создать в панели (SG-18)** |
 | Фраза «с 2021, 5 лет», адрес Исаева 2Б, разметка `LegalService` | готово |
 | Запросы для Топвизора | Новороссийск залит (78), Геленджик нет (23) |
 | База позиций 5 ноября | **10 из 78**, бренд на 1-м месте |
@@ -52,6 +53,7 @@
 | [docs/client-interview.md](docs/client-interview.md) | Вопросы заказчику + текст «если созвона нет» |
 | [docs/sprint-tasks.md](docs/sprint-tasks.md) | 17 шагов спринта на 3 недели |
 | [docs/metrika-webmaster.md](docs/metrika-webmaster.md) | Счётчик и мета-тег: номера и где стоят |
+| [docs/metrika-goals_2026-11-06.md](docs/metrika-goals_2026-11-06.md) | **Цели Метрики: 4 цели за 10 минут, проверка, чего они не показывают** |
 | [docs/topvisor-queries.md](docs/topvisor-queries.md) | 100 запросов: регион, страница, приоритет |
 | [docs/preferences.md](docs/preferences.md) | Правило: сайт не правим сами |
 
