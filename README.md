@@ -40,6 +40,7 @@
 | Файл | Что это |
 |---|---|
 | [docs/client-answers_2026-11-05.md](docs/client-answers_2026-11-05.md) | **Ответы заказчика 5 ноября: офис, услуги, доступы, ограничения** |
+| [docs/tz-schema-faq_2026-11-06.md](docs/tz-schema-faq_2026-11-06.md) | **ТЗ: разметка FAQ и хлебных крошек** |
 | [docs/tz-titles_2026-11-06.md](docs/tz-titles_2026-11-06.md) | **ТЗ на title, H1 и description пяти страниц** |
 | [docs/positions-baseline_2026-11-05.md](docs/positions-baseline_2026-11-05.md) | **База позиций: 10 из 78, разбор и расхождения** |
 | [queries/tracking-positions.xlsx](queries/tracking-positions.xlsx) | Таблица недельных замеров: 10 фраз × 8 недель |
