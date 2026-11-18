@@ -47,6 +47,7 @@
 | [docs/text-proverka-obekta_2026-11-18.md](docs/text-proverka-obekta_2026-11-18.md) | **Готовый текст страницы «Проверка объекта» — можно отдавать Владимиру** |
 | [docs/text-kommercia_2026-11-18.md](docs/text-kommercia_2026-11-18.md) | **Готовые тексты: анализ и продажа коммерции** |
 | [docs/paket-vladimir_2026-11-18.md](docs/paket-vladimir_2026-11-18.md) | **Пакет для Владимира: порядок правок** |
+| [docs/tz-vladimir_2026-11-18.md](docs/tz-vladimir_2026-11-18.md) | **ТЗ №3: SEO + GEO, заголовки, разметка, новая страница, /blog, приёмка** |
 | [docs/card-check_2026-11-18.md](docs/card-check_2026-11-18.md) | **Сверка карточек 18.11: адрес и сайт исправлены, телефон нет** |
 | [docs/content-plan_2026-11-18.md](docs/content-plan_2026-11-18.md) | **Контент-план: 2 страницы услуг и 4 статьи** |
 | [docs/articles/_catalog.md](docs/articles/_catalog.md) | **12 готовых статей: каталог и порядок публикации** |
