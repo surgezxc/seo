@@ -47,6 +47,7 @@
 | [docs/text-proverka-obekta_2026-11-18.md](docs/text-proverka-obekta_2026-11-18.md) | **Готовый текст страницы «Проверка объекта» — можно отдавать Владимиру** |
 | [docs/text-kommercia_2026-11-18.md](docs/text-kommercia_2026-11-18.md) | **Готовые тексты: анализ и продажа коммерции** |
 | [docs/paket-vladimir_2026-11-18.md](docs/paket-vladimir_2026-11-18.md) | **Пакет для Владимира: порядок правок** |
+| [docs/card-check_2026-11-18.md](docs/card-check_2026-11-18.md) | **Сверка карточек 18.11: адрес и сайт исправлены, телефон нет** |
 | [docs/decisions/2026-11-18-rabotaem-bez-voprosov.md](docs/decisions/2026-11-18-rabotaem-bez-voprosov.md) | **Решение 18.11: без анкет, мы пишем — клиент правит** |
 | [docs/tz-proverka-obekta_2026-11-06.md](docs/tz-proverka-obekta_2026-11-06.md) | ТЗ: страница «Проверка объекта» (устарело, см. текст 18.11) |
 | [docs/tz_2026-11-06.md](docs/tz_2026-11-06.md) | **ТЗ: заголовки пяти страниц + разметка FAQ и крошек** |
