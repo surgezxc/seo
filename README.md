@@ -45,6 +45,7 @@
 | [docs/client-answers_2026-11-05.md](docs/client-answers_2026-11-05.md) | **Ответы заказчика 5 ноября: офис, услуги, доступы, ограничения** |
 | [docs/questions-all_2026-11-06.md](docs/questions-all_2026-11-06.md) | **Все вопросы по проекту одним сообщением (17 шт.)** |
 | [docs/text-proverka-obekta_2026-11-18.md](docs/text-proverka-obekta_2026-11-18.md) | **Готовый текст страницы «Проверка объекта» — можно отдавать Владимиру** |
+| [docs/text-kommercia_2026-11-18.md](docs/text-kommercia_2026-11-18.md) | **Готовые тексты: анализ и продажа коммерции** |
 | [docs/decisions/2026-11-18-rabotaem-bez-voprosov.md](docs/decisions/2026-11-18-rabotaem-bez-voprosov.md) | **Решение 18.11: без анкет, мы пишем — клиент правит** |
 | [docs/tz-proverka-obekta_2026-11-06.md](docs/tz-proverka-obekta_2026-11-06.md) | ТЗ: страница «Проверка объекта» (устарело, см. текст 18.11) |
 | [docs/tz_2026-11-06.md](docs/tz_2026-11-06.md) | **ТЗ: заголовки пяти страниц + разметка FAQ и крошек** |
