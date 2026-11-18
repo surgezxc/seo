@@ -54,6 +54,7 @@
 | [docs/card-check_2026-11-18.md](docs/card-check_2026-11-18.md) | **Сверка карточек 18.11: адрес и сайт исправлены, телефон нет** |
 | [docs/content-plan_2026-11-18.md](docs/content-plan_2026-11-18.md) | **Контент-план: 2 страницы услуг и 4 статьи** |
 | [docs/geo-skills-trial_2026-11-18.md](docs/geo-skills-trial_2026-11-18.md) | **Проба скиллов SEO/GEO: что работает, где конфликт с правилами** |
+| [docs/ТЗ-Владимиру-2026-11-18.docx](docs/ТЗ-Владимиру-2026-11-18.docx) | **Один файл для Владимира: задание + тексты шести страниц** |
 | [docs/articles/_catalog.md](docs/articles/_catalog.md) | **12 готовых статей: каталог и порядок публикации** |
 | [docs/decisions/2026-11-18-rabotaem-bez-voprosov.md](docs/decisions/2026-11-18-rabotaem-bez-voprosov.md) | **Решение 18.11: без анкет, мы пишем — клиент правит** |
 | [docs/tz-proverka-obekta_2026-11-06.md](docs/tz-proverka-obekta_2026-11-06.md) | ТЗ: страница «Проверка объекта» (устарело, см. текст 18.11) |
