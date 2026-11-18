@@ -58,6 +58,7 @@
 | [docs/Задание-по-сайту-2026-11-18.docx](docs/Задание-по-сайту-2026-11-18.docx) | **Один файл для Владимира: задание + тексты шести страниц (собирается `tools/make-vladimir-docx.py`)** |
 | [docs/articles/_catalog.md](docs/articles/_catalog.md) | **2 статьи к публикации: каталог, «Полезное», архив снятых** |
 | [docs/articles/_audit_2026-11-18.md](docs/articles/_audit_2026-11-18.md) | **Аудит статей: 12 проверено, 10 снято, 2 осталось** |
+| [docs/articles/_plan_2026-11-18.md](docs/articles/_plan_2026-11-18.md) | **План статей: четыре безопасных жанра и шесть тем из архива** |
 | [docs/decisions/2026-11-18-zagolovki-po-baze-zaprosov.md](docs/decisions/2026-11-18-zagolovki-po-baze-zaprosov.md) | **Решение 18.11: заголовки по базе запросов, одна страница — один запрос** |
 | [docs/decisions/2026-11-18-rabotaem-bez-voprosov.md](docs/decisions/2026-11-18-rabotaem-bez-voprosov.md) | **Решение 18.11: без анкет, мы пишем — клиент правит** |
 | [docs/tz-proverka-obekta_2026-11-06.md](docs/tz-proverka-obekta_2026-11-06.md) | ТЗ: страница «Проверка объекта» (устарело, см. текст 18.11) |
