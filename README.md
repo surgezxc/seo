@@ -56,7 +56,8 @@
 | [docs/content-plan_2026-11-18.md](docs/content-plan_2026-11-18.md) | **Контент-план: 2 страницы услуг и 4 статьи** |
 | [docs/geo-skills-trial_2026-11-18.md](docs/geo-skills-trial_2026-11-18.md) | **Проба скиллов SEO/GEO: что работает, где конфликт с правилами** |
 | [docs/Задание-по-сайту-2026-11-18.docx](docs/Задание-по-сайту-2026-11-18.docx) | **Один файл для Владимира: задание + тексты шести страниц (собирается `tools/make-vladimir-docx.py`)** |
-| [docs/articles/_catalog.md](docs/articles/_catalog.md) | **12 готовых статей: каталог и порядок публикации** |
+| [docs/articles/_catalog.md](docs/articles/_catalog.md) | **12 готовых статей: каталог, порядок публикации, «Полезное» по страницам** |
+| [docs/articles/_audit_2026-11-18.md](docs/articles/_audit_2026-11-18.md) | **Аудит 12 статей: что было не так и что исправлено** |
 | [docs/decisions/2026-11-18-zagolovki-po-baze-zaprosov.md](docs/decisions/2026-11-18-zagolovki-po-baze-zaprosov.md) | **Решение 18.11: заголовки по базе запросов, одна страница — один запрос** |
 | [docs/decisions/2026-11-18-rabotaem-bez-voprosov.md](docs/decisions/2026-11-18-rabotaem-bez-voprosov.md) | **Решение 18.11: без анкет, мы пишем — клиент правит** |
 | [docs/tz-proverka-obekta_2026-11-06.md](docs/tz-proverka-obekta_2026-11-06.md) | ТЗ: страница «Проверка объекта» (устарело, см. текст 18.11) |
