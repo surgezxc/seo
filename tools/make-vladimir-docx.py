@@ -15,7 +15,7 @@ from docx.shared import Pt, Cm
 from docx.enum.table import WD_TABLE_ALIGNMENT
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(BASE, "docs", "ТЗ-Владимиру-2026-11-18.docx")
+OUT = os.path.join(BASE, "docs", "Задание-по-сайту-2026-11-18.docx")
 
 FILES = [
     ("Приложение А. Страница «Проверка объекта перед покупкой»", "docs/text-proverka-obekta_2026-11-18.md"),
@@ -148,7 +148,7 @@ st.font.name = "Times New Roman"; st.font.size = Pt(11)
 st.paragraph_format.space_after = Pt(4); st.paragraph_format.line_spacing = 1.15
 
 doc.add_heading("АНВ Гарант: задание на правки сайта", level=0)
-doc.add_paragraph("18 ноября 2026. Для Владимира.")
+doc.add_paragraph("18 ноября 2026.")
 add_runs(doc.add_paragraph(),
          "Готовые тексты страниц — в приложениях А–Е этого документа. "
          "Отдельных файлов не нужно: всё внутри.")
