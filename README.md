@@ -49,7 +49,7 @@
 | [docs/paket-vladimir_2026-11-18.md](docs/paket-vladimir_2026-11-18.md) | **Пакет для Владимира: порядок правок** |
 | [docs/card-check_2026-11-18.md](docs/card-check_2026-11-18.md) | **Сверка карточек 18.11: адрес и сайт исправлены, телефон нет** |
 | [docs/content-plan_2026-11-18.md](docs/content-plan_2026-11-18.md) | **Контент-план: 2 страницы услуг и 4 статьи** |
-| [docs/article-agency_2026-11-18.md](docs/article-agency_2026-11-18.md) | **Статья 1: как открыть агентство недвижимости** |
+| [docs/articles/_catalog.md](docs/articles/_catalog.md) | **12 готовых статей: каталог и порядок публикации** |
 | [docs/decisions/2026-11-18-rabotaem-bez-voprosov.md](docs/decisions/2026-11-18-rabotaem-bez-voprosov.md) | **Решение 18.11: без анкет, мы пишем — клиент правит** |
 | [docs/tz-proverka-obekta_2026-11-06.md](docs/tz-proverka-obekta_2026-11-06.md) | ТЗ: страница «Проверка объекта» (устарело, см. текст 18.11) |
 | [docs/tz_2026-11-06.md](docs/tz_2026-11-06.md) | **ТЗ: заголовки пяти страниц + разметка FAQ и крошек** |
