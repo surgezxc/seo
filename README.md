@@ -44,7 +44,9 @@
 | [docs/yandex-card-gelendzhik_2026-11-11.md](docs/yandex-card-gelendzhik_2026-11-11.md) | **Карточка: сверка 11.11, переезд в Геленджик, цена, 4 вопроса** |
 | [docs/client-answers_2026-11-05.md](docs/client-answers_2026-11-05.md) | **Ответы заказчика 5 ноября: офис, услуги, доступы, ограничения** |
 | [docs/questions-all_2026-11-06.md](docs/questions-all_2026-11-06.md) | **Все вопросы по проекту одним сообщением (17 шт.)** |
-| [docs/tz-proverka-obekta_2026-11-06.md](docs/tz-proverka-obekta_2026-11-06.md) | **ТЗ: страница «Проверка объекта» — структура и вопросы заказчику** |
+| [docs/text-proverka-obekta_2026-11-18.md](docs/text-proverka-obekta_2026-11-18.md) | **Готовый текст страницы «Проверка объекта» — можно отдавать Владимиру** |
+| [docs/decisions/2026-11-18-rabotaem-bez-voprosov.md](docs/decisions/2026-11-18-rabotaem-bez-voprosov.md) | **Решение 18.11: без анкет, мы пишем — клиент правит** |
+| [docs/tz-proverka-obekta_2026-11-06.md](docs/tz-proverka-obekta_2026-11-06.md) | ТЗ: страница «Проверка объекта» (устарело, см. текст 18.11) |
 | [docs/tz_2026-11-06.md](docs/tz_2026-11-06.md) | **ТЗ: заголовки пяти страниц + разметка FAQ и крошек** |
 | [docs/positions-baseline_2026-11-05.md](docs/positions-baseline_2026-11-05.md) | **База позиций: 10 из 78, разбор и расхождения** |
 | [queries/tracking-positions.xlsx](queries/tracking-positions.xlsx) | Таблица недельных замеров: 10 фраз × 8 недель |
