@@ -33,11 +33,22 @@ def read(rel):
 
 
 def balance_bold(md):
-    """Склеивает строки, где ** открылся на одной строке, а закрылся на другой."""
+    """Склеивает строки, где ** или ` открылся на одной строке, а закрылся на
+    другой. Блоки кода (```) не трогает."""
     out, buf = [], ""
+    in_code = False
     for line in md.split("\n"):
+        if line.strip().startswith("```"):
+            if buf:
+                out.append(buf); buf = ""
+            out.append(line)
+            in_code = not in_code
+            continue
+        if in_code:
+            out.append(line)
+            continue
         buf = (buf + " " + line.strip()) if buf else line
-        if buf.count("**") % 2 == 0:
+        if buf.count("**") % 2 == 0 and buf.count("`") % 2 == 0:
             out.append(buf)
             buf = ""
     if buf:
@@ -59,11 +70,11 @@ def add_runs(p, text):
         if not part:
             continue
         if part.startswith("**") and part.endswith("**") and len(part) > 4:
-            r = p.add_run(part[2:-2]); r.bold = True
+            r = p.add_run(part[2:-2].replace("`", "")); r.bold = True
         elif part.startswith("`") and part.endswith("`") and len(part) > 2:
             r = p.add_run(part[1:-1]); r.font.name = "Consolas"; r.font.size = Pt(9.5)
         else:
-            p.add_run(part)
+            p.add_run(part.replace("`", ""))
 
 
 def is_table_start(lines, i):
@@ -117,6 +128,22 @@ def render(md):
             continue
 
         if s.startswith(">"):
+            m_h = re.match(r"^\*\*\[(H[12])\]\s*(.+?)\*\*$", raw)
+            if m_h:
+                add_runs(doc.add_heading(level=2 if m_h.group(1) == "H1" else 3),
+                         m_h.group(2))
+                i += 1
+                continue
+            m_li = re.match(r"^\s*[-*]\s+(.*)$", raw)
+            if m_li:
+                add_runs(doc.add_paragraph(style="List Bullet"), m_li.group(1))
+                i += 1
+                continue
+            m_ol = re.match(r"^\s*\d+\.\s+(.*)$", raw)
+            if m_ol:
+                add_runs(doc.add_paragraph(style="List Number"), m_ol.group(1))
+                i += 1
+                continue
             p = doc.add_paragraph()
             p.paragraph_format.left_indent = Cm(0.6)
             p.paragraph_format.space_after = Pt(2)
@@ -161,7 +188,7 @@ add_runs(doc.add_paragraph(),
          "меняем:** старые уже в индексе.")
 
 doc.add_page_break()
-doc.add_heading("Часть 1. Задание", level=1)
+p = doc.add_paragraph(); r = p.add_run("Часть 1. Задание"); r.bold = True; r.font.size = Pt(13)
 render(read("docs/tz-vladimir_2026-11-18.md"))
 
 for title, rel in FILES:
@@ -173,6 +200,9 @@ for title, rel in FILES:
         md = [b for b in blocks if b.startswith("# " + part + ".")][0]
     else:
         md = read(rel)
+    # Первый заголовок текста дублирует название приложения — убираем его,
+    # чтобы в документе не было двух H1 подряд.
+    md = re.sub(r"\A# [^\n]*\n+", "", md)
     render(md)
 
 doc.save(OUT)
