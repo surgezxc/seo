@@ -62,6 +62,7 @@
 | [docs/articles/_plan_2026-11-18.md](docs/articles/_plan_2026-11-18.md) | **План статей: четыре безопасных жанра и шесть тем из архива** |
 | [docs/decisions/2026-11-18-zagolovki-po-baze-zaprosov.md](docs/decisions/2026-11-18-zagolovki-po-baze-zaprosov.md) | **Решение 18.11: заголовки по базе запросов, одна страница — один запрос** |
 | [docs/decisions/2026-11-18-rabotaem-bez-voprosov.md](docs/decisions/2026-11-18-rabotaem-bez-voprosov.md) | **Решение 18.11: без анкет, мы пишем — клиент правит** |
+| [docs/decisions/2026-11-19-statii-kriteriy-i-chistka.md](docs/decisions/2026-11-19-statii-kriteriy-i-chistka.md) | **Решение 19.11: критерий статьи, архив отклонённых удалён** |
 | [docs/tz-proverka-obekta_2026-11-06.md](docs/tz-proverka-obekta_2026-11-06.md) | ТЗ: страница «Проверка объекта» (устарело, см. текст 18.11) |
 | [docs/tz_2026-11-06.md](docs/tz_2026-11-06.md) | **ТЗ: заголовки пяти страниц + разметка FAQ и крошек** |
 | [docs/positions-baseline_2026-11-05.md](docs/positions-baseline_2026-11-05.md) | **База позиций: 10 из 78, разбор и расхождения** |
