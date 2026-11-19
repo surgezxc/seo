@@ -53,6 +53,7 @@
 | [docs/paket-vladimir_2026-11-18.md](docs/paket-vladimir_2026-11-18.md) | **Пакет для Владимира: порядок правок** |
 | [docs/tz-vladimir_2026-11-18.md](docs/tz-vladimir_2026-11-18.md) | **ТЗ №3, пересобрано: карта заголовков по 78 запросам, разметка без двойных цен, приёмка скриптом** |
 | [docs/card-check_2026-11-18.md](docs/card-check_2026-11-18.md) | **Сверка карточек 18.11: адрес и сайт исправлены, телефон нет** |
+| [docs/address-check_2026-11-19.md](docs/address-check_2026-11-19.md) | **Адреса 19.11: Яндекс и Google, ID карточек, что править** |
 | [docs/content-plan_2026-11-18.md](docs/content-plan_2026-11-18.md) | **Контент-план: 2 страницы услуг и 4 статьи** |
 | [docs/gelendzhik-tracking_2026-11-18.md](docs/gelendzhik-tracking_2026-11-18.md) | **Геленджик в Топвизоре: 50 запросов, 7 групп, база до страницы** |
 | [docs/geo-skills-trial_2026-11-18.md](docs/geo-skills-trial_2026-11-18.md) | **Проба скиллов SEO/GEO: что работает, где конфликт с правилами** |
