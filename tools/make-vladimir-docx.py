@@ -15,7 +15,7 @@ from docx.shared import Pt, Cm
 from docx.enum.table import WD_TABLE_ALIGNMENT
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(BASE, "docs", "Задание-по-сайту-2026-11-18.docx")
+OUT = os.path.join(BASE, "docs", "Задание-по-сайту-2026-11-22.docx")
 
 FILES = [
     ("Приложение А. Страница «Проверка объекта перед покупкой»", "docs/text-proverka-obekta_2026-11-18.md"),
@@ -24,6 +24,7 @@ FILES = [
     ("Приложение Г. Страница «Анализ коммерческой недвижимости»", "docs/text-kommercia_2026-11-18.md#1"),
     ("Приложение Д. Страница «Продажа коммерческой недвижимости»", "docs/text-kommercia_2026-11-18.md#2"),
     ("Приложение Е. Страница «Запуск агентства недвижимости»", "docs/text-zapusk-agentstva_2026-11-18.md"),
+    ("Приложение Ж. Страница «Геленджик»", "docs/text-gelendzhik_2026-11-22.md"),
 ]
 
 
@@ -130,8 +131,11 @@ def render(md):
         if s.startswith(">"):
             m_h = re.match(r"^\*\*\[(H[12])\]\s*(.+?)\*\*$", raw)
             if m_h:
+                # Пометку [H1]/[H2] оставляем в тексте заголовка: это тег
+                # страницы, а не уровень Word. Иначе Владимир видит «H1» в блоке
+                # «Мета» и H2 в тексте и не понимает, что куда.
                 add_runs(doc.add_heading(level=2 if m_h.group(1) == "H1" else 3),
-                         m_h.group(2))
+                         f"[{m_h.group(1)}] {m_h.group(2)}")
                 i += 1
                 continue
             m_li = re.match(r"^\s*[-*]\s+(.*)$", raw)
@@ -175,17 +179,22 @@ st.font.name = "Times New Roman"; st.font.size = Pt(11)
 st.paragraph_format.space_after = Pt(4); st.paragraph_format.line_spacing = 1.15
 
 doc.add_heading("АНВ Гарант: задание на правки сайта", level=0)
-doc.add_paragraph("18 ноября 2026.")
+doc.add_paragraph("18 ноября 2026, редакция 22 ноября 2026.")
 add_runs(doc.add_paragraph(),
-         "Готовые тексты страниц — в приложениях А–Е этого документа. "
-         "Две статьи для /blog/ — отдельным пакетом файлов, в этот "
+         "Готовые тексты страниц — в приложениях А–Ж этого документа. "
+         "Три статьи для /blog/ — отдельным пакетом файлов, в этот "
          "документ не входят: см. блок 7.")
 doc.add_heading("Что в файле", level=1)
 for line in ["Часть 1. Задание: что сломано, что править, чем проверять."] + [f[0] + "." for f in FILES]:
     add_runs(doc.add_paragraph(style="List Bullet"), line)
 add_runs(doc.add_paragraph(),
+         "**Пометки [H1] и [H2] в приложениях** — это теги страницы, а не уровни "
+         "заголовков Word. Стили из документа не копировать: первый заголовок "
+         "приложения — это `h1`, второй раз его не выводить, в блоке «Мета» он "
+         "только для справки.")
+add_runs(doc.add_paragraph(),
          "**Стартовая точка:** пока не изменены title и H1, новые тексты эффекта "
-         "не дадут. Порядок работ — в части 1, блоки 1–5. **Адреса страниц не "
+         "не дадут. Порядок работ — в части 1, блоки 1–5.1. **Адреса страниц не "
          "меняем:** старые уже в индексе.")
 
 doc.add_page_break()
